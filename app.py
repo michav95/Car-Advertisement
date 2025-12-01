@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Load and prep the data
-data = pd.read_csv("Dataset.csv")  # <- change to your actual filename
+data = pd.read_csv("Dataset.csv")
 
 # Make sure numeric columns are numeric
 numeric_cols = ['price', 'model_year', 'odometer', 'days_listed']
